@@ -6,6 +6,7 @@ Client setup -
 ### Ubuntu
 
 sudo apt install wireguard
+
 sudo cp <client_>.conf /etc/wireguard/wg0.conf
 
 sudo wg-quick up wg0 - start the wireguard tunnel
