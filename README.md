@@ -6,6 +6,8 @@ Client setup -
 ### Ubuntu
 ```
 sudo apt install wireguard
+sudo apt install resolvconf
+
 sudo cp <client_>.conf /etc/wireguard/wg0.conf
 ```
 
