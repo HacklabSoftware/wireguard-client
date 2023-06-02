@@ -24,8 +24,8 @@ sudo wg-quick down wg0
 #### To make permanent setup
 Add the WireGuard service to systemd:
 ```
-  sudo systemctl enable wg-quick@wg0.service
-  sudo systemctl daemon-reload
+sudo systemctl enable wg-quick@wg0.service
+sudo systemctl daemon-reload
 ```
 Start the new service immediately:
 
