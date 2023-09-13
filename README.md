@@ -40,6 +40,7 @@ Reboot your computer system to verify the automatic connection on startup works 
 https://www.wireguard.com/install/
 
 
-### Wireguard compile from source [!https://www.wireguard.com/compilation/]
+### Wireguard compile from source 
+https://www.wireguard.com/compilation/
 
 
