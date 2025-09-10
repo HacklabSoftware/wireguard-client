@@ -1,6 +1,15 @@
 # Wireguard
+Production setup
+```
+sudo apt install wireguard
+sudo apt install resolvconf
 
+sudo cp <client_>.conf /etc/wireguard/prod.conf
 
+sudo systemctl enable wg-quick@prod.service
+sudo systemctl daemon-reload
+sudo systemctl start wg-quick@prod
+```
 Client setup - 
 
 ### Ubuntu
